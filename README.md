@@ -21,11 +21,11 @@ Getting started
 `config/initalizers/flickr_api_keys.rb` and add your Flickr API keys. 
 * Start Rails: `bundle exec rails s`
 * Try requesting metadata for images, or images themselves:
-    * `http://localhost:3000/image-service/14277523416/info.json`
-    * `http://localhost:3000/image-service/14277523416/full/full/0/native.jpg`
-    * `http://localhost:3000/image-service/14277523416/full/full/90/bitonal.jpg`
+    * `http://localhost:3000/image-service/14598431020/info.json`
+    * `http://localhost:3000/image-service/14598431020/full/full/0/native.jpg`
+    * `http://localhost:3000/image-service/14598431020/full/full/90/bitonal.jpg`
 * Load an image over IIIF in a OpenSeadragon viewer:
-    * `http://localhost:3000/iiif_image/14277523416`
+    * `http://localhost:3000/iiif_image/14598431020`
 
 Known issues
 ---
