@@ -15,3 +15,6 @@
 /log/*
 !/log/.keep
 /tmp
+
+Gemfile.lock
+config/initializers/flickr_api_keys.rb

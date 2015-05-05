@@ -1,0 +1,11 @@
+<div id="viewer" class="openseadragon" style="width: 800px; height: 600px;">
+</div>
+<div class="openseadragon">
+    <script>
+    OpenSeadragon({
+        id:              "viewer",
+        prefixUrl:       "http://openseadragon.github.io/openseadragon/images/",
+        tileSources:     "<%= url_for(@iiif_image) %>"
+    });
+    </script>
+</div>
